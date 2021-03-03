@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+body {
+	background-image: url(../images/works/rain_forest.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+#navbar {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	background-image: url(../images/works/2334.png);
+	overflow: hidden;
+	background-size: cover;
+	background-attachment: fixed;
+	position: fixed;
+	z-index: 10;
+	padding: 24px 5px;
+	border-bottom: 3px solid #d8886f;
+	border-radius: 0px 0px 30px 30px;
+}
+
+#navbar a {
+	font-size: 22px;
+	border-radius: 8px;
+	transition: 0.2s ease-out;
+}
+
+#navbar a:link {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+#navbar a:hover {
+	letter-spacing: 7px;
+	background: #d804fd;
+	box-shadow: 0 0 5px #d804fd, 0 0 25px #d804fd, 0 0 50px #d804fd, 0 0 200px #d804fd;
+}
+
+#navbar a:visited {
+	color: antiquewhite;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #d804fd;
+}
+
+#navbar a:active {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #b026e7;
+}
+
+
+/* Zoom image  */
+
+
+/* end of zoom image  */
+
+#wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+
+#header-ct {
+	width: 1000px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+
+#header {
+	width: 100%;
+	height: 100%;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: white;
+	text-align: center;
+	padding: 100px 0px 0px 0px;
+	background-image: url(../images/Work_space.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/* change the default display type to inline-block */
+	transition: 1s ease-out;
+}
+
+#header:hover {
+	transform: scale(1.2);
+}
+
+#header img {
+	margin-top: 100px;
+	width: 200px;
+	transition: 0.3s ease-out;
+}
+
+#header img:hover {
+	transform: scale(1.1);
+}
+
+#content {
+	width: 900px;
+	height: auto;
+	background-image: url("../images/works/dark_space.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: rgb(250, 245, 243);
+	font-size: 14px;
+	padding: 50px;
+}
+
+#content .bordert1 {
+	font-size: 17px;
+	border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(../images/border-bottom.png) 20% round;
+	color: #ffffff;
+}
+
+#content h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	margin-top: 100px;
+}
+
+#content h6 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: grey;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#content img {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+	/* IE 6-9 */
+	transition: 0.5s ease-out;
+}
+
+#content img:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	filter: none;
+	filter: none;
+}
+
+#content hr {
+	border: 0;
+	height: 1px;
+	background: rgb(255, 255, 255);
+	background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.descriptions {
+	margin: 40px 0;
+	color: #ecee74;
+	font-weight: 560;
+	font-size: 15px;
+}
+
+#back_top {
+	position: fixed;
+	z-index: 1203;
+	top: 550px;
+	left: -58px;
+	margin: auto;
+	width: 80px;
+	height: 80px;
+	background: #ee9357;
+	border-radius: 8px;
+	transition: 0.5s ease-out;
+}
+
+#back_top:hover {
+	left: 5px;
+}
+
+#back_top a {
+	margin-top: 5px;
+	font-size: 50px;
+	overflow: hidden;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 0.2s ease-out;
+	outline: none;
+}
+
+#back_top a:hover {
+	transform: scale(1.2);
+}
+
+#back_top:hover {
+	background: #3ed330;
+}
+
+#footer {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(246, 216, 168);
+	background-image: url("../images/works/2334.png");
+	background-size: cover;
+	background-attachment: fixed;
+	color: rgb(255, 255, 255);
+	font-size: 12px;
+	text-align: center;
+	padding-top: 20px;
+}

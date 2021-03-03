@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-color: none;
+    background-image: url("../images/Patrick_Night.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+
+}
+.box { 
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+ 
+.img-content {
+    
+    overflow: hidden;
+ 
+}
+ 
+ 
+ 
+.box .intro::first-letter{
+    float: left;
+    font-size: 50px;
+    padding: 15px 10px;
+    margin: 5px 10px 0  0;
+    border-radius: 5px;
+   }
+   /* .box .intro {
+    -webkit-mask-image: linear-gradient(to top, 
+    rgba(255,255,255, 0) -5%, 
+    rgba(255,255,255, 1) 65% );
+ } */
+ .intro {
+     position: relative;
+ }
+ .btn {
+     position: absolute;
+     text-align: center;
+     padding:10px;
+     width: 150px;
+     right: 90px;
+     cursor: pointer;
+     border-radius: 10px;
+     transition: 0.3s ease-out;
+ }
+ .btn:hover {
+     background-color: #7e89e6;
+ }
+ 
+ .btn a{
+    font-size: 17px;
+ }
+ .btn a:link {
+     color: white;
+ }
+ .btn:hover a{
+    color: black;
+ }
+ .btn a:visited {
+     color: white;
+ }
+   .audio {
+    
+    position: relative;
+    
+}
+@media only screen and (min-width: 700px){
+    .box {
+        background-color: rgba(223, 215, 210, 0.863);
+         margin: 100px 15% 100px 35%;
+        color: rgb(47, 46, 46);
+        padding: 20px 15px 80px 20px; 
+        line-height: 1.8em;
+       }
+       .intro {
+        text-align: justify;
+        font-size: 18px;
+       }
+       .intro::first-letter{
+        color: white;
+        background: #f58d73;
+       }
+       .box h1 {
+        color: #000000;
+       }
+       .box h4 {
+           font-size: 16px;
+       }
+    .img-content {
+        border: 1px solid tomato;
+        border-radius: 5px;
+        float: left;
+        width: 280px;
+        margin-right: 15px;
+        box-shadow: 9px 9px #929191;
+    }
+    .btn {
+        background-color: #eb6543;
+        color: white;
+    }
+    .audio { 
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+   .box {
+    background-color: rgba(233, 135, 106, 0.863);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 150px auto;
+    padding: 20px 15px 40px 20px; 
+    line-height: 1.2em;
+   }
+   .box h1{
+       font-size: 20px;
+  
+   }
+   .box h4 {
+    font-size: 14px;
+}
+   .intro {
+    font-size: 10px;
+    text-align: justify;
+   }
+   .intro::first-letter{
+    color: rgb(78, 62, 62);
+    background: #e9d6d2;
+   }
+   .img-content {
+       float: right;
+       width: 150px;
+       margin: 15px;
+       border: 2px solid rgb(213, 241, 223);
+       box-shadow: 5px 9px #daddd5;
+   }
+   .btn {
+    background-color: #fce88e;
+    color: rgb(42, 8, 8);
+    }
+    .audio {
+        width: 100%;
+        height: 28px;
+        margin-top: 5px;
+    }
+  }

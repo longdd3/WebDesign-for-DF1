@@ -1,0 +1,14 @@
+1. For 1folio
+    I changed the folder name to lower case, and index.html , I also croped images and added padding-top to     "back-top" buton.  I did readdress at some folder and images in it.
+
+2. For Boutique
+  I changed the height of about page, corrected the grammar of sentences in footer and other pages , small view size of in contact pages, email.  formated all css and html in my files. 
+I added some images (png) and download buttons for them on store page.
+
+3. For Responsive Web page
+ I did fix the small view , and change the background to linear, align it to center of the page. 
+ fix all the folder name.
+
+
+
+	

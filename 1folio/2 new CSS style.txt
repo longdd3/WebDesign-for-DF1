@@ -1,0 +1,47 @@
+
+1.  Hover and Light up around :
+	using Box-Shadow: 
+	#navbar a:hover {
+ 		 letter-spacing: 7px;
+ 		 background: #d804fd;
+ 		 box-shadow: 0 0 5px #d804fd,
+              		0 0 25px #d804fd,
+             		 0 0 50px #d804fd,
+              		0 0 200px #d804fd;
+		 }
+
+
+2. GrayScale : 
+	  #content img {
+  		  -webkit-filter: grayscale(100%);
+  		  -moz-filter: grayscale(100%);
+   		 -ms-filter: grayscale(100%);
+    		filter: grayscale(100%);
+    		filter: gray; /* IE 6-9 */
+    		transition: 0.5s ease-out;
+	  }
+ If I hover on the image, the colors of image are back to normal 
+ #content img:hover {
+ 	  -webkit-filter: none;
+    	-moz-filter: none;
+    	-ms-filter: none;
+    	filter: none;
+    	filter: none; 
+  }
+
+3. Moving Position for Back to Top Icon: 
+#back_top{
+  position: fixed;
+  z-index: 1203;
+  top: 550px;
+  left: -58px;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  background: #ee9357;
+  border-radius: 8px;
+  transition: 0.5s ease-out;
+}
+#back_top:hover {
+  left: 5px;
+}

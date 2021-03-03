@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The NeosSVG | A SVG Store Boutique | Troy,AL</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/mediaqueries.css" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://kit.fontawesome.com/5a0844fd1b.js" crossorigin="anonymous"></script>
+	<script src="JS/jquery-3.5.1.min.js"></script>
+	<script src="JS/function.js"></script>
+</head>
+
+
+<body>
+
+	<header class="navbar clearfix">
+		<div class="conatiner clearfix">
+			<h1 class="logo-name">
+				<a href="index.html" class="name-logo" title="NeosSVG">
+					<img src="images/NeosLOGO2.png"> </a>
+				<a href="javascript:void(0);" class="btns" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</h1>
+			<ul class="main-nav" id="top-nav">
+				<li>
+					<a class="btn bts" href="index.html"><img class="form-icon" src="images/svg/home.svg">Home</a>
+				</li>
+				<li>
+					<a class="btn bts" href="about.html"><img class="form-icon" src="images/svg/about.svg">About</a>
+				</li>
+				<li>
+
+					<a class="btn bts" href="store.html"><img class="form-icon" src="images/svg/camera.svg">Store</a>
+				</li>
+				<li>
+					<a class="btn bts" href="contact.html"><img class="form-icon" src="images/svg/form.svg">Contact</a>
+				</li>
+			</ul>
+
+		</div>
+	</header>
+	<main class="content-form clearfix">
+		<div class="sdf">
+			<div id="header-about">
+				<div class="introduce">
+
+					<h2>
+
+						General Information
+
+					</h2>
+
+
+					<p class="intro"> Looking for front-end or design work, I'm available for speaking and answering
+						questions. If you have any questions, please don't hesitate to contact me.! Also If you have any
+						question about my products. Send me the emails and you're interested in our products</p>
+					<br>
+					<h3>CONGRATS</h3>
+
+					<p>Follow us on Vimeo for specials and coupon offerings!</p>
+					<ul>
+						<li>
+							<a href="https://vimeo.com/user107810314" target="blank">
+								<i class="fab fa-vimeo-square" alt="Vimeo Logo"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/longdd3?tab=repositories" target="blank">
+								<i class="fab fa-github-alt" alt="github logo"></i>
+							</a>
+						</li>
+						<a href="https://www.linkedin.com/in/long-dang-b87725118/" target="blank">
+							<i class="fab fa-linkedin" alt="Linked logo"></i>
+						</a>
+					</ul>
+				</div>
+
+
+				<div class="formss clearfix">
+					<div id="form-left">
+
+
+						<iframe id="JotFormIFrame-203079327688163" title="Fancy Envelope Contact Form"
+							onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true"
+							allow="geolocation; microphone; camera" src="https://form.jotform.com/203079327688163"
+							frameborder="0" style="
+				min-width: 100%;
+				height:711px;
+				border:none;" scrolling="no">
+						</iframe>
+						<script type="text/javascript">
+							var ifr = document.getElementById("JotFormIFrame-203079327688163");
+							if (window.location.href && window.location.href.indexOf("?") > -1) {
+								var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+								if (ifr && get.length > 0) {
+									var src = ifr.src;
+									src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get;
+									ifr.src = src;
+								}
+							}
+							window.handleIFrameMessage = function (e) {
+								if (typeof e.data === 'object') { return; }
+								var args = e.data.split(":");
+								if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+								if (!iframe) { return; }
+								switch (args[0]) {
+									case "scrollIntoView":
+										iframe.scrollIntoView();
+										break;
+									case "setHeight":
+										iframe.style.height = args[1] + "px";
+										break;
+									case "collapseErrorPage":
+										if (iframe.clientHeight > window.innerHeight) {
+											iframe.style.height = window.innerHeight + "px";
+										}
+										break;
+									case "reloadPage":
+										window.location.reload();
+										break;
+									case "loadScript":
+										var src = args[1];
+										if (args.length > 3) {
+											src = args[1] + ':' + args[2];
+										}
+										var script = document.createElement('script');
+										script.src = src;
+										script.type = 'text/javascript';
+										document.body.appendChild(script);
+										break;
+									case "exitFullscreen":
+										if (window.document.exitFullscreen) window.document.exitFullscreen();
+										else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen();
+										else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen();
+										else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen();
+										else if (window.document.msExitFullscreen) window.document.msExitFullscreen();
+										break;
+								}
+								var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+								if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+									var urls = { "docurl": encodeURIComponent(document.URL), "referrer": encodeURIComponent(document.referrer) };
+									iframe.contentWindow.postMessage(JSON.stringify({ "type": "urls", "value": urls }), "*");
+								}
+							};
+							if (window.addEventListener) {
+								window.addEventListener("message", handleIFrameMessage, false);
+							} else if (window.attachEvent) {
+								window.attachEvent("onmessage", handleIFrameMessage);
+							}
+						</script>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="footer-inner clearfix">
+			<a href="index.html">HOME</a> |
+			<a href="about.html">ABOUT</a> |
+			<a href="store.html">STORE</a> |
+			<a href="contact.html">CONTACT</a>
+			<p>All images do not belong to me. This website is for educational purposes only.</p>
+		</div>
+	</footer>
+</body>
+
+
+</html>

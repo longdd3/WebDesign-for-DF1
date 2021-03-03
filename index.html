@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Dang Long | DFI 1</title>
+  <script src="JScript/function.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    body {
+      background-image: url("1folio/images/Cool_Forest.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: 'Varela Round', sans-serif;
+      background-attachment: fixed;
+      margin: 0px;
+    }
+
+    #wrapper {
+      width: 1000px;
+
+      height: auto;
+
+      margin: auto;
+    }
+
+    #header {
+      border-top: 8px solid rgb(113, 192, 206);
+      width: 1000px;
+      height: 100px;
+      text-transform: uppercase;
+      background: linear-gradient(rgba(250, 250, 250, 0.05), rgba(148, 147, 147, 0.5)), url("1folio/images/works/rain_forest.jpg");
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 2.7em;
+      text-align: center;
+      color: white;
+      text-shadow: 5px 5px 8px rgb(248, 210, 191);
+      padding: 30px 0px 0px 0px;
+      margin-top: 50px;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    #navbar {
+
+      text-align: center;
+      color: rgb(255, 255, 255);
+
+      font-size: 1.05em;
+      padding-top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      width: 1000px;
+      height: 60px;
+      background-color: rgba(55, 245, 172, 0.9);
+
+      /* box-shadow: 0px 10px rgba(143, 138, 138, 0.8); */
+    }
+
+    #navbar a {
+      font-size: 1em;
+      transition: box-shadow .3s;
+      margin: auto;
+      padding: 5px 10px;
+      text-transform: uppercase;
+      transition: 0.3s;
+      font-weight: 500;
+      position: relative;
+      font-family: 'Abel', sans-serif;
+    }
+
+    #navbar a:link {
+      color: rgb(0, 0, 0);
+    }
+
+    #navbar a:visited {
+      color: rgb(2, 22, 7);
+    }
+
+    #navbar a:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #FFF;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.3s ease-in-out;
+    }
+
+    #navbar a:hover {
+      color: white;
+    }
+
+    #navbar a:hover::before {
+      visibility: visible;
+      transform: scaleX(1);
+    }
+
+    #content {
+      border-top: 3px solid rgb(99, 97, 240);
+      width: 1000px;
+      height: 500px;
+      padding-top: 2px;
+      color: white;
+      background-image: linear-gradient(to top right, rgb(204, 22, 22), rgb(214, 75, 203), rgb(36, 232, 246));
+    }
+
+    #content img {
+      width: 300px;
+      float: right;
+      display: block;
+      border-radius: 20px;
+      border: 5px solid rgb(238, 100, 8);
+      margin: 25px 15px 0 15px;
+    }
+
+    #content p {
+      font-size: 1.4em;
+      padding: 0 15px;
+      font-family: 'Raleway', sans-serif;
+      text-align: justify;
+    }
+
+    #content p::first-letter {
+      float: left;
+      font-size: 3em;
+      font-weight: 600;
+      color: rgb(11, 250, 250);
+      padding: 3px 10px;
+      background: #384047;
+      margin: 15px 10px 0 0;
+      border-radius: 5px;
+    }
+
+    #footer {
+      border-top: 3px solid rgb(99, 97, 240);
+      width: 1000px;
+      height: 50px;
+      background-color: rgba(55, 245, 172, 0.9);
+      border-radius: 0px 0px 12px 12px;
+    }
+
+    .ft {
+      text-align: center;
+      padding: 5px;
+      font-size: 15px;
+      color: rgba(56, 54, 54, 0.8);
+
+    }
+
+    .ft a {
+      font-family: 'Abel', sans-serif;
+
+      transition: 0.25s ease-out;
+      padding: 5px;
+    }
+
+    .ft p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .ft a:link {
+      color: rgb(17, 17, 17);
+    }
+
+    .ft a:visited {
+      color: rgb(0, 0, 0);
+    }
+
+    .ft a:hover {
+      font-size: 1em;
+      color: #ffffff;
+    }
+   
+  </style>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <div id="header">Dang Long's Landing Page | DFI 1</div>
+
+    <div id="navbar"><a href="1folio/index.html" target="_blank"> <strong> Mini Portfolio</strong></a> <span>|</span> <a
+        href="2boutique/index.html" target="_blank"> <strong> Boutque </strong></a> <span>|</span>
+
+      <a href="3responsive/index.html" target="_blank" > <strong>Critic Responive</strong></a> <span>|</span> <a href="4EmailBlast/index.html" target="_blank"><strong>Email Blast</strong> </a>
+
+    </div>
+
+    <div id="content">
+      <img src="1folio/images/Dang_Long profile.jpg" class="images">
+      <p> My name is Long, I'm a Front End Developer. I can work well with CSS, HTML, and JavaScript. I finished my first Bachelor of Computer Science in May 2020 and after that, I continued taking Graphic Design as Second Major.
+
+        Moreover I have experienced with other Amazing Adobe softwares like <strong>Photoshop</strong>,
+        <strong>Illustrator</strong>, <strong>After Effect</strong>, <strong>Indesign</strong>.
+        Illustrator is my favorite software to design and create a <em>logo</em>, <em>layout</em>.
+        Think of games like the Banner Saga, in which the background and characters are beautifully drawn and meticulously animated. I'm currently looking for a Front-End job now, Go and Check out my works in my uploaded Portfolio Link above. Leave a comment or contact me if you are interested.
+
+
+      </p>
+
+
+
+    </div>
+
+    <div id="footer">
+      <footer class="ft">
+        <a href="1folio/index.html" target="_blank"> <strong> Mini Portfolio</strong></a> <span>|</span> <a href="2boutique/index.html" target="_blank"> <strong> Boutque
+          </strong></a> <span>|</span>
+        <a href="3responsive/index.html" target="_blank"> <strong>Critic Responive</strong></a> <span>|</span> <a href="4emailblast/index.html" target="_blank"><strong>Email Blast</strong> </a>
+        <p><em>Email me through this email: </em><a class="emailss"
+            href="mailto: longd3102@gmail.com">longd3102@gmail.com</a></p>
+      </footer>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
